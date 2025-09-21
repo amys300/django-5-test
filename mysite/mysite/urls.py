@@ -3,5 +3,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('blog.urls')),  # homepage shows blog posts
+    path('', include('blog.urls')),  # homepage goes to blog
 ]
